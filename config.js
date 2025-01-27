@@ -3,19 +3,19 @@ require("dotenv").config();
 
 module.exports = {
     prefix: process.env.PREFIX || ".",
-    ownerName: process.env.OWNER_NAME || "Toxxic-Boy",
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414",
+    ownerName: process.env.OWNER_NAME || "Wilson",
+    ownerNumber: process.env.OWNER_NUMBER || "2348085274623",
     mode: process.env.MODE || "public",
     region: process.env.REGION || "Nigeria",
     botName: process.env.BOT_NAME || "Rias Gremory V3",
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES",
-    exifAuthor: process.env.EXIF_AUTHOR || "Toxxic",
+    exifAuthor: process.env.EXIF_AUTHOR || "Wilson",
     timeZone: process.env.TIME_ZONE || "Africa/Lagos",
     presenceStatus: process.env.PRESENCE_STATUS || "unavailable",
-    autoRead: process.env.AUTO_READ === "true",
-    autoViewStatus: process.env.AUTO_VIEW_STATUS === "true",
+    autoRead: process.env.AUTO_READ === "false",
+    autoViewStatus: process.env.AUTO_VIEW_STATUS === "false",
     autoReact: process.env.AUTO_REACT === "true",
-    sessionId: process.env.SESSION_ID || "",
+    sessionId: process.env.SESSION_ID || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUVWWlpzWktxenNHRnpUa2g2QmlxZjU3WDJCUEgya0xiV3gxQnlXdjQzbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRGF1U0xVZ0JvcmFXZ0xwRldSV25mb093R2ZlQ2Y5ZHlSdXltbU1kSzhVaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFRTVaY0NUQkpaWHpSOTV4RzNWendybjNlZXhMeVdkcmN6ajA2ZkZhSUhRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1U3N5MUxLeFNmUjg3cEZGOGkwc2xBUXZVOVJtMFVCcThSZHF1Q2JWeHlnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlFRS9vT3R0b0E4NVFUT3dYYzFPZXM0bHViL1dhTXRoUlhYdFoyU2FJbE09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVzRjFubC94VExTNStCd3hLODlzdXRqdURnT2hkYmFUY0I5OVRGUnl4UUE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMk5lanN2NTJaSElyN0JqVStaVHhXRTU2eVpnOVJUeFgwNWlURXRYMzBVdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEVXYjhJUFR3RzlwNnNpaG1iaVNBL09lZWttZ0NmWGdwYmNodkFIbHBYMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InQrdDFzN1U5OUR5T2dJMjE5bk5LcTVhM2JtN1Q5UUV1cWZrUk5FZm9RL2JoQmlFb3BZbVJkQ2hNREVjNkwwSnVUYytqVVlZLzFXbkRKR05RSHRQSURnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTkzLCJhZHZTZWNyZXRLZXkiOiJjakRibGs5Q2NvRWNJTVFjVHFhQ0QvRVNzQm85aXlLc2p0ZWxHT0piMXg4PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiI0WExLMUdFNiIsIm1lIjp7ImlkIjoiMjM0ODA4NTI3NDYyMzo4MEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLlsbHkuKjjhKXkuILjhJblh6AiLCJsaWQiOiIyMTI1MjAxODI3NDUwMTo4MEBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0xxaWg1NE5FTWFaM3J3R0dBY2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImMrUmlKOWZ4Q0VUd0RIM3hEZHV2YXA5V3VEcUh6MTJNeUN4STRiOVYvVG89IiwiYWNjb3VudFNpZ25hdHVyZSI6IjVmL1NYU3JIc1ZaR2xsNDFMRGJYZmxvNDlGSWlaRXZWdnhiSXJHdnduU08ra3pGZ2FWNXh5VEdLeVNWd202N1p4Q0t3elVkQ2NIbEE0Qm9NdEVZZEFnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJsQVJEZjl3M2dwYVVBK1c1clR5a2E2Z3R4azlUZnFvRmhFMGJyQXZVSW9ObjNCVU9IUTJpUjVOTEpiUmVZUXJFb1JXcS9Nb1BNL2dHRThGRzljR1JBdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgwODUyNzQ2MjM6ODBAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWFBrWWlmWDhRaEU4QXg5OFEzYnIycWZWcmc2aDg5ZGpNZ3NTT0cvVmYwNiJ9fV0sInBsYXRmb3JtIjoic21iaSIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0EwSUNBPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM3OTg1MjM2LCJsYXN0UHJvcEhhc2giOiIzZ1BVSmsiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUw2aCJ9",
     autoRejectEnabled: process.env.AUTO_REJECT_ENABLED || "false",
 };
 
